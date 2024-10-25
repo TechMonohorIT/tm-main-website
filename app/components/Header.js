@@ -63,7 +63,7 @@ const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
                   onClick={() => setMobileMenuOpen(false)}
                   className="-m-2.5 rounded-md p-2.5 text-gray-700"
                 >
-                  <span className="sr-only">Close menu</span>
+                  <span className="sr-only">Close or Bondho menu</span>
                   <XMarkIcon aria-hidden="true" className="h-6 w-6" />
                 </button>
               </div>
@@ -85,7 +85,7 @@ const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
                       href="#"
                       className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                     >
-                      Log in
+                      Log in  or Sign up
                     </a>
                   </div>
                 </div>
