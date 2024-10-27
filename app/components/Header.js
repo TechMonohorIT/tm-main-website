@@ -2,12 +2,14 @@
 
 import { useState } from 'react'
 import { Dialog, DialogPanel } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+import logo from "@/public/images/techmonohor.png";
+import Image from 'next/image';
 
 const navigation = [
-  { name: 'Product', href: '#' },
-  { name: 'Features', href: '#' },
-  { name: 'Marketplace', href: '#' },
+  { name: 'Projects', href: '#' },
+  { name: 'Services', href: '#' },
+  { name: 'Contact', href: '#' },
   { name: 'Company', href: '#' },
   { name: 'Log in', href: '#' },
 ]
@@ -21,10 +23,10 @@ const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
             <div className="px-6 pt-6 lg:max-w-2xl lg:pl-8 lg:pr-0">
               <nav aria-label="Global" className="flex items-center justify-between lg:justify-start">
                 <a href="#" className="-m-1.5 p-1.5">
-                  <span className="sr-only">Your Company</span>
-                  <img
-                    alt="Your Company"
-                    src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600"
+                  <span className="sr-only">Tech Monohor IT</span>
+                  <Image
+                    alt="Tech Monohor"
+                    src={logo}
                     className="h-8 w-auto"
                   />
                 </a>
@@ -51,7 +53,7 @@ const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
             <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
               <div className="flex items-center justify-between">
                 <a href="#" className="-m-1.5 p-1.5">
-                  <span className="sr-only">Your Company</span>
+                  <span className="sr-only">Tech Monohor IT</span>
                   <img
                     alt=""
                     src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600"
@@ -110,7 +112,7 @@ const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
                 <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl">
                   <div className="hidden sm:mb-10 sm:flex">
                     <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-500 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-                      Anim aute id magna aliqua ad ad non deserunt sunt.{' '}
+                      We are a freelance Web Development Agency.{' '}
                       <a href="#" className="whitespace-nowrap font-semibold text-indigo-600">
                         <span aria-hidden="true" className="absolute inset-0" />
                         Read more <span aria-hidden="true">&rarr;</span>
@@ -118,18 +120,17 @@ const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
                     </div>
                   </div>
                   <h1 className="text-pretty text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl">
-                    Data to enrich your business
+                  Our Code, Your Success
                   </h1>
                   <p className="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">
-                    Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt
-                    amet fugiat veniam occaecat fugiat aliqua.
+                  We are helping businesses succeed online with custom websites that look great and work smoothly. We turn ideas into effective websites, combining design and code to support your goals.
                   </p>
                   <div className="mt-10 flex items-center gap-x-6">
                     <a
                       href="#"
                       className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                     >
-                      Get started
+                      Contact Us
                     </a>
                     <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
                       Learn more <span aria-hidden="true">→</span>

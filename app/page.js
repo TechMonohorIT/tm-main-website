@@ -1,6 +1,6 @@
-import { DivideIcon } from "@heroicons/react/24/outline";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import Services from "./components/Services";
 
 
 export default function Home() {
@@ -8,6 +8,7 @@ export default function Home() {
   return (
     <div>
       <Header></Header>
+      <Services></Services>
       <Footer></Footer>
     </div>
   );
