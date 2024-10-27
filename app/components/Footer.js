@@ -9,22 +9,17 @@ const Footer = () => {
         {/* Logo and Description Section */}
         <div className="space-y-4">
           <div className="flex items-center space-x-3">
-            {/* <img src={images01} alt="Webency Logo" className="w-10 h-10" /> */}
-                      <Image
-                          className="w-10 h-10"
+              <Image
+              className="w-10 h-10"
               src={images01}
               alt="Picture of the author"
               width={500} 
               height={500} 
-              // blurDataURL="data:..." automatically provided
-              // placeholder="blur" // Optional blur-up while loading
             />
-            <h2 className="text-2xl font-bold text-black">TechMonohor</h2>
+            <h2 className="text-lg md:text-lg lg:text-2xl font-bold text-black">TechMonohor IT</h2>
           </div>
           <p className="text-sm">
-            All the Lorem Ipsum generators on the Internet tend to repeat
-            predefined chunks as necessary, making this the first true generator
-            on the Internet.
+          We are a freelance Web Development Agency. We want by our coding, you can get your business success.
           </p>
           <div className="flex space-x-4 text-2xl">
             <a href="#" className="text-purple-500">
@@ -79,16 +74,16 @@ const Footer = () => {
           <h3 className="text-xl font-semibold text-black mb-4">Contact Us</h3>
           <ul className="space-y-2">
             <li>
-              <i className="fas fa-envelope mr-2"></i> Info@gmail.com
+              <i className="fas fa-envelope"></i> Info@gmail.com
             </li>
             <li>
-              <i className="fas fa-globe mr-2"></i> www.website.com
+              <i className="fas fa-globe"></i> www.website.com
             </li>
             <li>
-              <i className="fas fa-map-marker-alt mr-2"></i> 25 Marion, Columbia
+              <i className="fas fa-map-marker-alt"></i> Sylhet, Bangladesh
             </li>
             <li>
-              <i className="fas fa-phone mr-2"></i> + 00 123 456 789
+              <i className="fas fa-phone"></i> + 00 123 456 789
             </li>
           </ul>
         </div>
@@ -135,7 +130,7 @@ const Footer = () => {
 
       {/* Footer Bottom Section */}
       <div className="border-t border-gray-300 mt-8 pt-4 text-center text-sm">
-        <p>Copyright © 2023 ThemeJunction. All Rights Reserved.</p>
+        <p>Copyright © 2024 TechMonohorIT. All Rights Reserved.</p>
         <div className="mt-2 space-x-4">
           <a href="#" className="hover:text-black">
             Setting & Privacy
