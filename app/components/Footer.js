@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import images01 from "../public/images/techmonohor.png";
+import images01 from "../../public/images/techmonohor.png";
 
 const Footer = () => {
   return (
